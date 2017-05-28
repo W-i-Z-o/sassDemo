@@ -7,10 +7,12 @@ body {
   border-color: red; }
 
 #links {
+  border-radius: 5px;
   float: left;
   margin-right: 100px; }
 
 #rechts {
+  border-radius: 15px;
   border-color: blue; }
 
 /*# sourceMappingURL=styles.css.map */
