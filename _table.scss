@@ -1,3 +1,23 @@
-table {
-	color: red;
+$standard-color: red;
+
+.table {
+	&, th, td {
+		border-width: 1px;
+		border-style: solid;
+		border-color: $standard-color;
+	}
 }
+
+#links {
+	@extend .table;
+	
+	float: left;
+	margin-right: 100px;
+}
+
+#rechts {
+	@extend .table;
+	
+	border-color: blue;
+}
+

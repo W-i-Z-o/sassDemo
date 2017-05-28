@@ -1,7 +1,16 @@
 body {
   font-family: "Arial"; }
 
-table {
-  color: red; }
+.table, #links, #rechts, .table th, #links th, #rechts th, .table td, #links td, #rechts td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red; }
+
+#links {
+  float: left;
+  margin-right: 100px; }
+
+#rechts {
+  border-color: blue; }
 
 /*# sourceMappingURL=styles.css.map */
