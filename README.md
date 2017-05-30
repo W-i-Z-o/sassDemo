@@ -25,3 +25,7 @@ Simon
 
 
 €dit: At any time you want you can reproduce the steps i'm gonna show you in the demo by following the commits in this repository starting with the first one.
+
+You can start "watching" a folder by running the following comand line:
+
+sass --watch inputFolderPath:outputFolderPath
